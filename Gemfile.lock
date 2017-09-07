@@ -1,0 +1,29 @@
+PATH
+  remote: .
+  specs:
+    hello_helix (1.0.0)
+      helix_runtime (~> 0.6.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    blankslate (2.1.2.4)
+    helix_runtime (0.6.4)
+      rake (>= 10.0)
+      thor (~> 0.19.4)
+      toml (~> 0.1.2)
+    parslet (1.5.0)
+      blankslate (~> 2.0)
+    rake (12.0.0)
+    thor (0.19.4)
+    toml (0.1.2)
+      parslet (~> 1.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hello_helix!
+
+BUNDLED WITH
+   1.14.6
